@@ -1398,9 +1398,6 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <!-- Remove unused AOSP repos -->
-  <include name="snippets/remove.xml" />
-
   <!-- Project Blaze repos -->
   <include name="snippets/lineage.xml" />
   <include name="snippets/scandium-extra.xml" />
