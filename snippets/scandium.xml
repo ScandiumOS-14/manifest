@@ -21,14 +21,14 @@
 
   <!-- Remote Device -->
   <project path="device/scandium/sepolicy" name="device_scandium_sepolicy" remote="scandium" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" revision="14" remote="scandium" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="scandium" />
 
   <!-- Remote Frameworks  -->
   <project path="frameworks/av" name="frameworks_av" remote="scandium" />
   <project path="frameworks/base" name="frameworks_base" remote="scandium" />
   <project path="frameworks/native" name="frameworks_native" remote="scandium" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="scandium" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" revision="14" remote="scandium" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="scandium" />
 
   <!-- Remote General repos -->
   <project path="art" name="art" remote="scandium" />
@@ -55,7 +55,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="14" remote="scandium" />
   <project path="hardware/ril" name="hardware_ril" remote="scandium" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="scandium" />
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" revision="14" remote="scandium" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="scandium" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -87,12 +87,12 @@
   </project>
 
   <!-- Remote Packages -->
-  <project path="packages/apps/Nfc" name="ProjectBlaze/packages_apps_Nfc" remote="github" />
+  <project path="packages/apps/Nfc" name="ProjectBlaze/packages_apps_Nfc" revision="14" remote="github" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="scandium" />
   <project path="packages/apps/ScandiumHome" name="packages_apps_ScandiumHome" remote="scandium" />
-  <project path="packages/apps/ScandiumWallpaperStub" name="packages_apps_ScandiumWallpaperStub" revision="14" remote="blaze" />
+  <project path="packages/apps/ScandiumWallpaperStub" name="packages_apps_ScandiumWallpaperStub" remote="scandium" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="scandium" />
-  <project path="packages/apps/ParanoidSense" name="ProjectBlaze/packages_apps_ParanoidSense" remote="github" />
+  <project path="packages/apps/ParanoidSense" name="ProjectBlaze/packages_apps_ParanoidSense" revision="14" remote="github" />
   <project path="packages/apps/ThemePicker" name="ProjectBlaze/packages_apps_ThemePicker" revision="14" remote="github" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" revision="14" remote="scandium" />
 
@@ -102,15 +102,15 @@
   <project path="packages/apps/Messaging" name="ProjectBlaze/packages_apps_Messaging" revision="14" remote="github" />
 
   <!-- Remote Packages Modules -->
-  <project path="packages/modules/Bluetooth" name="ProjectBlaze/packages_modules_Bluetooth" remote="github" />
+  <project path="packages/modules/Bluetooth" name="ProjectBlaze/packages_modules_Bluetooth" revision="14" remote="github" />
   <project path="packages/modules/Connectivity" name="ProjectBlaze/packages_modules_Connectivity" revision="14" remote="github" />
-  <project path="packages/modules/Permission" name="ProjectBlaze/packages_modules_Permission" remote="github" />
-  <project path="packages/modules/Wifi" name="ProjectBlaze/packages_modules_Wifi" remote="github" />
+  <project path="packages/modules/Permission" name="ProjectBlaze/packages_modules_Permission" revision="14" remote="github" />
+  <project path="packages/modules/Wifi" name="ProjectBlaze/packages_modules_Wifi" revision="14" remote="github" />
   <project path="packages/overlays/Themes" name="ProjectBlaze/packages_overlays_Themes" revision="14" remote="github" />
   <project path="packages/services/DeviceAsWebcam" name="ProjectBlaze/packages_services_DeviceAsWebcam" revision="14" remote="github" />
-  <project path="packages/services/Telecomm" name="ProjectBlaze/packages_services_Telecomm" remote="github" />
-  <project path="packages/services/Telephony" name="ProjectBlaze/packages_services_Telephony" remote="github" />
-  <project path="packages/providers/TelephonyProvider" name="ProjectBlaze/packages_providers_TelephonyProvider" remote="github" />
+  <project path="packages/services/Telecomm" name="ProjectBlaze/packages_services_Telecomm" revision="14" remote="github" />
+  <project path="packages/services/Telephony" name="ProjectBlaze/packages_services_Telephony" revision="14" remote="github" />
+  <project path="packages/providers/TelephonyProvider" name="ProjectBlaze/packages_providers_TelephonyProvider" revision="14" remote="github" />
 
   <!-- Remote System -->
   <project path="system/core" name="system_core" remote="scandium" />
