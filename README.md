@@ -1,26 +1,25 @@
+![Scandium OS](https://raw.githubusercontent.com/KernelBuilding/scandium_manifest/refs/heads/14/banner.png)
+
 Getting Started:
 ===============
 
 To get started with Project Blaze, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository, use a command like this:
-
+### Create ScandiumOS Folder ###
+```bash
+mkdir ScandiumOS
+cd ScandiumOS
+```
+### Sync our source ###
 ```bash
 repo init --depth=1 -u https://github.com/KernelBuilding/manifest -b 14
 ```
-
-Then to sync up:
-
 ```
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
 
 ---------------------------------------------------------------------------------------
- Compilation of Scandium OS:
- ==================
-
-From root directory of Project, perform following commands in terminal
-
+### Build our source ###
 ```bash
 $ . build/envsetup.sh
 $ lunch scandium_$device-ap2a-userdebug
