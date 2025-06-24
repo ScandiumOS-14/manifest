@@ -1403,6 +1403,6 @@
 
   <!-- Project Blaze repos -->
   <include name="snippets/lineage.xml" />
-  <include name="snippets/blaze-extra.xml" />
-  <include name="snippets/blaze.xml" />
+  <include name="snippets/scandium-extra.xml" />
+  <include name="snippets/scandium.xml" />
 </manifest>
