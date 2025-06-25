@@ -1398,7 +1398,11 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <!-- Project Blaze repos -->
+
+  <!-- Removeble repos -->
+  <include name="snippets/remove.xml" />
+  
+  <!-- ScandiumOS repos -->
   <include name="snippets/lineage.xml" />
   <include name="snippets/scandium-extra.xml" />
   <include name="snippets/scandium.xml" />
