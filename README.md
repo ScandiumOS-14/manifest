@@ -3,7 +3,7 @@
 Getting Started:
 ===============
 
-To get started with Project Blaze, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
+To get started with Scandium OS, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and Version Control with [Git](https://source.android.com/source/version-control.html).
 
 ### Create ScandiumOS Folder ###
 ```bash
