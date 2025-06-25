@@ -1,4 +1,4 @@
-![Scandium OS](https://raw.githubusercontent.com/KernelBuilding/scandium_manifest/refs/heads/14/banner.png)
+![Scandium OS](https://raw.githubusercontent.com/ScandiumOS-14/manifest/refs/heads/14/banner.png)
 
 Getting Started:
 ===============
