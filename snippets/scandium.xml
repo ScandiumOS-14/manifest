@@ -53,7 +53,7 @@
   <project path="hardware/scandium/interfaces" name="hardware_scandium_interfaces" remote="scandium" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="scandium" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="14" remote="scandium" />
-  <project path="hardware/ril" name="amdroid_hardware_ril" remote="scandium" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="scandium" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="scandium" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="scandium" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -122,7 +122,7 @@
 
   <!-- Remote Vendor -->
   <project path="vendor/scandium" name="android_vendor_scandium" remote="scandium" />
-  <project path="vendor/support" name="amdroid_vendor_support" remote="scandium" />
+  <project path="vendor/support" name="android_vendor_support" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
 
   <!-- Remote Gapps -->
