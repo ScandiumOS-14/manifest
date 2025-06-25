@@ -12,7 +12,7 @@ cd ScandiumOS
 ```
 ### Sync our source ###
 ```bash
-repo init --depth=1 -u https://github.com/KernelBuilding/scandium_manifest -b 14
+repo init --depth=1 -u https://github.com/ScandiumOS-14/manifest -b 14
 ```
 ```
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
