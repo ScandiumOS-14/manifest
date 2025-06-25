@@ -8,7 +8,7 @@
 
   <!-- BitBucket -->
   <remote  name="bitbucket"
-           fetch="https://bitbucket.org/projectblaze"
+           fetch="https://bitbucket.org/kernelbuilding"
            revision="14" />
 
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="14" remote="blaze-extra" />
