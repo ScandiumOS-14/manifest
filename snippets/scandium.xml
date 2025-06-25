@@ -121,8 +121,8 @@
   <project path="system/update_engine" name="system_update_engine" remote="scandium" />
 
   <!-- Remote Vendor -->
-  <project path="vendor/scandium" name="vendor_scandium" remote="scandium" />
-  <project path="vendor/support" name="vendor_support" remote="scandium" />
+  <project path="vendor/scandium" name="android_vendor_scandium" remote="scandium" />
+  <project path="vendor/support" name="amdroid_vendor_support" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
 
   <!-- Remote Gapps -->
