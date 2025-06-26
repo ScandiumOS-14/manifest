@@ -22,7 +22,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimiz
 ### Build our source ###
 ```bash
 $ . build/envsetup.sh
-$ lunch scandium_$device-ap2a-userdebug
+$ lunch scandium_$device-userdebug
 $ make bacon
 ```
 ---------------------------------------------------------------------------------------
