@@ -128,7 +128,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
 
   <!-- Remote Gapps -->
-  <project path="vendor/gms" name="vendor_gms" remote="scandium" revision="14" clone-depth="1" />
+  <project path="vendor/gms" name="sc_vendor_gms" remote="scandium" revision="14" clone-depth="1" />
 
   <!-- Remote Prebuilts -->
   <project path="prebuilts/exthm-sdk" name="exthmui-next/android_prebuilts_exthmui-sdk" revision="Utsuho" remote="github" />
