@@ -47,6 +47,7 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
