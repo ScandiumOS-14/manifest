@@ -27,6 +27,16 @@ $ make bacon
 ```
 ---------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------
+### Supported Flags ###
+```bash
+-> SCANDIUM_MAINTAINER := "Your Name"
+-> SCANDIUM_BUILD_GAPPS := true/false
+-> SCANDIUM_BUILD_TYPE := OFFICIAL/UNOFFICIAL
+-> SCANDIUM_FACE_UNLOCK_SUPPORTED := true/fale
+```
+---------------------------------------------------------------------------------------
+
 # Credits:
 
  * [**LineageOS**](https://github.com/LineageOS)
