@@ -97,6 +97,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="scandium" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="scandium" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="scandium" />
+  <project path="packages/apps/LawnChair" name="sc_vendor_prebuilt_lawnchair" remote="scandium" />
 
 
   <!--project path="packages/apps/Updater" name="packages_apps_Updater" revision="14" remote="blaze" /-->

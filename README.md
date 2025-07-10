@@ -34,6 +34,7 @@ SCANDIUM_MAINTAINER := "Your Name"
 SCANDIUM_BUILD_GAPPS := true/false
 SCANDIUM_BUILD_TYPE := OFFICIAL/UNOFFICIAL
 SCANDIUM_FACE_UNLOCK_SUPPORTED := true/false
+TARGET_PREBUILTS_LAWNCHAIR := true/false
 ```
 ---------------------------------------------------------------------------------------
 
@@ -43,3 +44,4 @@ SCANDIUM_FACE_UNLOCK_SUPPORTED := true/false
  * [**ProtonAOSP**](https://github.com/ProtonAOSP)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**ProjectBlaze**](https://github.com/ProjectBlaze)
+ * [**LawnChair**](https://github.com/LawnchairLauncher)
