@@ -97,7 +97,6 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="scandium" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="scandium" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="scandium" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="scandium" />
 
 
   <!--project path="packages/apps/Updater" name="packages_apps_Updater" revision="14" remote="blaze" /-->
