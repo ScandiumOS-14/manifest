@@ -56,6 +56,9 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="scandium" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="scandium" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="scandium" >
+  <project path="hardware/qcom-caf/bootctrl" name="sc_android_hardware_qcom_bootctrl" remote="scandium" />
+  <project path="hardware/oplus" name="sc_hardware_oplus" remote="scandium" />
+
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -125,12 +128,12 @@
   <!-- Remote Vendor -->
   <project path="vendor/scandium" name="android_vendor_scandium" remote="scandium" />
   <project path="vendor/ScandiumOTA" name="ScandiumOTA" remote="scandium" />
-  <project path="vendor/scandium-maintainer" name="scandium-maintainer" remote="scandium" />
+  <project path="vendor/scandium-maintainer" name="sc_maintainership" remote="scandium" />
   <project path="vendor/support" name="android_vendor_support" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
 
   <!-- Remote Gapps -->
-  <project path="vendor/gms" name="vendor_gms" remote="blaze-gitea" revision="14-QPR3" clone-depth="1" />
+  <project path="vendor/gms" name="sc_vendor_gms" remote="scandium" clone-depth="1" />
 
   <!-- Remote Prebuilts -->
   <project path="prebuilts/exthm-sdk" name="exthmui-next/android_prebuilts_exthmui-sdk" revision="Utsuho" remote="github" />
