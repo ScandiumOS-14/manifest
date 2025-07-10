@@ -50,14 +50,13 @@
   <project path="manifest" name="manifest" remote="scandium" />
 
   <!-- Remote Hardware -->
+  <project path="hardware/oplus" name="sc_hardware_oplus" remote="scandium" />
   <project path="hardware/scandium/interfaces" name="hardware_scandium_interfaces" remote="scandium" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="scandium" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="14" remote="scandium" />
   <project path="hardware/ril" name="android_hardware_ril" remote="scandium" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="scandium" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="scandium" >
-  <project path="hardware/qcom-caf/bootctrl" name="sc_android_hardware_qcom_bootctrl" remote="scandium" />
-  <project path="hardware/oplus" name="sc_hardware_oplus" remote="scandium" />
 
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
