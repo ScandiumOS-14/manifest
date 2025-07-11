@@ -20,7 +20,7 @@
            revision="14-QPR3" />
 
   <!-- Remote Device -->
-  <project path="device/scandium/sepolicy" name="device_scandium_sepolicy" remote="scandium" />
+  <project path="device/scandium/sepolicy" name="sc_device_scandium_sepolicy" remote="scandium" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="scandium" />
 
   <!-- Remote Frameworks  -->
@@ -119,7 +119,7 @@
   <!-- Remote System -->
   <project path="system/core" name="android_system_core" remote="scandium" />
   <project path="system/media" name="android_system_media" remote="scandium" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="scandium" />
+  <project path="system/sepolicy" name="sc_system_sepolicy" remote="scandium" />
   <project path="system/security" name="android_system_security" remote="scandium" />
   <project path="system/vold" name="android_system_vold" remote="scandium" />
   <project path="system/update_engine" name="system_update_engine" remote="scandium" />
